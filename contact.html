@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>聯絡我們</title>
+</head>
+<body>
+  <header>
+    <h1>聯絡我們</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+	<li><a href="content.html">Content</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h2>請與我聯絡</h2>
+    <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+      <label for="name">姓名：</label>
+      <input type="text" id="name" name="name" required><br><br>
+      
+      <label for="email">電子郵件：</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="message">留言：</label><br>
+      <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+      
+      <button type="submit">送出</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 甲賀忍蛙 All rights reserved.</p>
+  </footer>
+</body>
+</html>
